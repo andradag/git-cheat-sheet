@@ -7,10 +7,17 @@ git clone
 The git clone initializes a new Git repository in the team-project folder on your local machine and fills it with the contents of the central repository. After that, you can cd into the project starting modification of files, commitment of snapshots, and interaction with other repositories.
 
 
+
 ```
 git status
 ```
 This command will show the status of the current repository including staged, unstaged, and untracked files.
+
+
+```
+git add .
+```
+If you want to add all files in your project to the staging area, you can use a wildcard . and every file will be added for you.
 
 
 ```
